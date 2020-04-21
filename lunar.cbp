@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="simple_particles" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="default">
+				<Option output="lunar" prefix_auto="1" extension_auto="1" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="C:/Dev-Cpp/src" />
+			<Add directory="C:/Dev-Cpp/include" />
+			<Add directory="C:/Dev-Cpp/bin" />
+		</Compiler>
+		<Linker>
+			<Add option="C:\Dev-Cpp\lib\libchipmunk.a" />
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL" />
+			<Add directory="C:/Dev-Cpp/src" />
+			<Add directory="c:/Dev-Cpp/dll" />
+		</Linker>
+		<Unit filename="lunar.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
